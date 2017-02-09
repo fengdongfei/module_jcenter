@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jayfeng.lesscode.app.activity.ViewActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <Button android:id="@+id/button_normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Normal Button"/>
+
+
+    <Button android:id="@+id/button_throttle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Throttle Button"/>
+
+    <Button android:id="@+id/button_throttle_long"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Throttle Button for 3s"/>
+
+</LinearLayout>

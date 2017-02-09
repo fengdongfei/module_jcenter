@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.jayfeng.lesscode.app.activity.DisplayActivity">
+
+    <com.jayfeng.lesscode.core.other.SpaceDividerView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="64dp"
+        app:spaceLeft="16dp"
+        app:spaceColor="#f00"
+        android:background="#fff"/>
+
+    <com.jayfeng.lesscode.core.other.SpaceDividerView
+        android:layout_width="1px"
+        android:layout_height="100dp"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:background="#0f0"
+        app:spaceTop="16dp"
+        app:spaceColor="#f00"/>
+
+</RelativeLayout>

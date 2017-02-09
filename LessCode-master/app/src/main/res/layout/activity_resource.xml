@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/group_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="48dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/account_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/list_item_bg"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/account_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="16dp"
+                android:text="First Item"
+                android:textColor="#f00"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <com.jayfeng.lesscode.core.other.SpaceDividerView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#f00"
+            app:spaceLeft="16dp"
+            app:spaceColor="@color/list_item_normal"/>
+
+        <RelativeLayout
+            android:id="@+id/phone_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/list_item_bg"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/phone_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="16dp"
+                android:text="Second Item"
+                android:textColor="#f00"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>
